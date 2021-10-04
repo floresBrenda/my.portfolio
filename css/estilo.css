@@ -5,20 +5,20 @@
 /*Section principal*/
 .header nav{
     box-shadow:inset 0 0 10px #FFA0A0;
-    height: 100px;
+    height: 6.25em;
     position: fixed;
     width: 100%;
     background-color: white;
 }
 .header ul{
     text-align: right;
-    padding: 40px;
+    padding: 2.5em;
     text-decoration: none;
 }
 .header li{
     display: inline;
-    margin: 40px;
-    width: 60px;
+    margin: 2.5em;
+    width: 3.75em;
     padding: auto;
     color: #262A53;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -30,74 +30,72 @@ a{
 .boton{
     text-decoration: none;
     background-color: #FFA0A0;
-    border-radius: 10px;
-    padding: 10px;
+    border-radius: 0.625em;
+    padding: 0.625em;
     color: white;
 }
 .principal{
     display: flex;
     width: 100%;
-    padding-top: 150px;
+    padding-top: 9.375em;
 }
 /*PRIMER DIV IZQ*/
 .primerdiv{
-    flex-direction: column;
     align-content: center;
-    padding-left: 150px;
+    padding-left: 9.375em;
     width: 50%;
     align-items: stretch;
     align-self: center;
 }
 .primerdiv>h2{
-    font-size: 45px;
+    font-size: 2.8125em;
     font-family: Arial, Helvetica, sans-serif;
-    padding-bottom: 10px;
+    padding-bottom: 0.625em;
 }
 .primerdiv>h1{
-    font-size: 80px;
+    font-size: 5em;
     font-family:'Caveat', cursive;
     color: blueviolet;
 }
 .primerdiv>p{
-    font-size: 20px;
+    font-size:1.25em;
     color: gray;
-    padding-bottom: 20px;
+    padding-bottom: 1.25em;
 }
 .primerdiv>a{
-    font-size: 20px;
+    font-size: 1.25em;
     text-decoration: none;
     background-color: #FFA0A0;
-    border-radius: 10px;
-    padding: 10px 10px;
+    border-radius:  0.625em;
+    padding:  0.625em  0.625em;
     color: white;
 }
 /*segundo div derecha*/
 .segundodiv{
-    width: 90%;
+    width: 50%;
     text-align: center;
-    flex-direction: column;
 }
 /*segunda section*/
 /*Primeras 3 fotos*/
 /*general*/
 .segunsec{
     background-image: url(../imagenes/fondo.formulario.jpg);
-    padding-top: 150px;
-    padding-bottom: 100px;
+    padding-top: 9.375em;
+    padding-bottom: 6.25em;
 }
 .segunsec>h1{
     text-align: center;
-    font-size: 50px;
+    font-size: 3.125em;
     font-style:oblique;
     justify-content: center;
 
 }
 .segunsec>p{
     text-align: center;
-    font-size: 20px;
+    font-size: 1.25em;
     font-family: 'Times New Roman', Times, serif;
     color: rgb(61, 60, 60);
-    padding: 20px;
+    padding: 1.25em;
 }
 /*imagenes*/
 .imagenesconocimientos{
@@ -108,22 +106,22 @@ a{
     margin: 0 auto;
 }
 .uno{ 
-    height: 250px;
-    width: 250px;
+    height: 15.625em;
+    width: 15.625em;
     background-color: white;
-    margin: 20px;
+    margin: 1.25em;
 }
 .dos{
-    height: 250px;
-    width: 250px;
+    height: 15.625em;
+    width: 15.625em;
     background-color: white;
-    margin: 20px;
+    margin: 1.25em;
 }
 .tres{
-    height: 250px;
-    width: 250px;
+    height: 15.625em;
+    width: 15.625em;
     background-color: white;
-    margin: 20px;
+    margin: 1.25em;
 }
 /*Segundo trio de imagenes*/
 .imagenes2conocimientos{
@@ -139,48 +137,48 @@ a{
     background-color: #5e8094 ;
     color: white;
     text-align: center;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 100px;
-    padding-bottom: 70px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    padding-left: 1.875em;
+    padding-right: 1.875em;
+    padding-top: 6.25em;
+    padding-bottom: 4.375em;
+    margin-top: 3.125em;
+    margin-bottom: 3.125em;
 }
 .imagencomi{
-    width: 200px;
+    width: 12.5em;
 }
 .cita{
-    padding-top: 50px;
+    padding-top: 3.125em;
 }
 .cita>q{
-    font-size: 40px;
+    font-size: 2.5em;
     font-family: 'Bonheur Royale', cursive;
     font-family: 'Lobster', cursive;
 }
 .cita>p{
-    font-size: 20px;
-    padding-top: 60px;
+    font-size: 1.25em;
+    padding-top: 3.75em;
 }
 /*SECCION MIS PROYECTOS*/
 .cuartasec1{
-    padding-top: 100px;
-    padding-bottom: 150px;
+    padding-top: 6.25em;
+    padding-bottom: 9.375em;
     background-image: url(../imagenes/fondo2.jpg);
     background-repeat: no-repeat;
     background-size:cover;
 }
 .proyectos>h1{
     text-align: center;
-    font-size: 50px;
+    font-size: 3.125em;
     font-style:oblique;
     justify-content: center;
 }
 .proyectos>p{
     text-align: center;
-    font-size: 20px;
+    font-size: 1.25em;
     font-family: 'Times New Roman', Times, serif;
     color: rgb(97, 95, 95);
-    padding: 20px;
+    padding: 1.25em;
 }
 /*Imagenes de proyectos*/
 .cuatrosec{
@@ -192,100 +190,113 @@ a{
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     justify-content: center;
-    font-size: 20px;
+    font-size: 1.25em;
     margin: 0;
     padding: 0;
 }
 .imag{
     width: 20%;
-    height: 300px;
-    margin: 20px 10px;
+    height: 18.75em;
+    margin: 1.25em 0.625em;
     border: 1px dotted gray;
     background: white;
 }
 .pri{
-    padding-top: 20px;
+    padding-top: 1.25em;
 }
 .segun{
-    padding-top: 10px;
+    padding-top: 0.625em;
 }
 /*Ultima seccion formulario*/
 /*Seccion Div contacctame*/
 .ultsecc{
     display: flex;
     justify-content: center;
-    padding-top: 150px;
+    padding-top: 9.375em;
     background-image: url(../imagenes/fondo.formulario.jpg);
-    padding-bottom: 150px;
+    padding-bottom: 9.375em;
 }
 .cont{
     width: 40%;
     flex-direction: column;
     justify-content: center;
     background-color: azure;
-    padding-left: 30px;
-    padding-top: 45px;
-    padding-bottom: 100px;
+    padding-left: 1.875em;
+    padding-top: 2.8125em;
+    padding-bottom: 6.25em;
+}
+.iconos{
+    padding: 0,9375em;
 }
 .img1{
-    display: block;
-    clear: left;
+    display:inline-block;
+    margin-right: 1.25em;
 }
 .iconos a{
     color: black;
-    font-size: 20px;
+    font-size: 1.25em;
 }
 .titu1{
-    font-size: 40px;
+    font-size: 2.5em;
     text-align: center;
 }
 .textcont{
-    font-size: 20px;
+    font-size:  1.25em;
     text-align: center;
-    padding: 20px;
+    padding:  1.25em;
 }
 /*Seccion DIV escribeme*/
 .formu{
     width: 50%;
     background-color: azure;
-    padding-left: 30px;
-    padding-top: 45px;
+    padding-left: 1.875em;
+    padding-top: 2.8125em;
 }
 .nombre{
     flex-basis: 50%;
     display: inline-block;
-    margin: 15px;
+    margin: 0.9375em;
 }
 .apellido{
     flex-basis: 50%;
     display: inline-block;
-    margin: 15px;
+    margin: 0.9375em;
 }
 .email{
-    margin: 15px;
+    margin: 0.9375em;
 }
 .mensaje{
-    margin: 15px;
+    margin: 0.9375em;
 }
 .textfrm{
-    font-size: 20px;
+    font-size: 1.25em;
 }
 input{
-    padding: 10px 15px;
+    padding: 0.625em 0.9375em;
 }
 .email>input{
    width: 63%;
 }
 .mensaje>input{
-    padding: 75px 135px;
+    padding: 4.6875em 8.4375em;
+}
+.boto2{
+    padding-left: 3.75em;
+    width: 10%;
+}
+.boton2{
+    text-align: center;
+    border-radius: 3.125em;
+    padding: 0.9375em;
+    background-color: #FFA0A0;
 }
 /*FOOTER*/
 .footer{
-    padding-top: 30px;
+    padding-top: 1.875em;
     display: flex;
     justify-content: center;
     background-color: #5e8094 ;
-    padding-bottom: 30px;
+    padding-bottom: 1.875em;
 }
 .navfo{
     width: 100%;
@@ -294,44 +305,49 @@ input{
 .ulfo{
     list-style: none;
     text-align: center;
-    padding: 20px;
-    word-spacing: 20px;
+    padding: 1.25em;
+    word-spacing: 1.25em;
 }
 .lifo{
     display: inline-block;
     color:white;
 }
 .lifo a{
-    word-spacing: 30px;
+    word-spacing: 1.875em;
     text-decoration: none;
     color: white;
-    font-size: 19px;
+    font-size: 1.1875em;
 }
+
 /*footer iconos*/
 .iconos2{
     text-align: center;
 }
 .ico{
-    text-align: center;
+    justify-content: center;
     display: inline-block;
     background-color: white;
-    border-radius: 50px;
-    padding: 10px;
-    margin-left: 20px;
-    margin-right: 20px;
+    border-radius: 200px;
+    padding: 0,625em;
+    margin-left: 1.25em;
+    margin-right: 1.25em;
+}
+.ico img{
+    text-align: center;
+    padding-left: 1.25em;
 }
 /*ACA ENPIEZAN LOS HOVER*/
 .header li:hover{
     background-color: #FFA0A0;
-    border-radius: 40px;
-    padding: 10px;
+    border-radius: 2.5em;
+    padding: 0.625em;
 }
 .header a:hover{
     color:white
 }
 /*-------------------------*/
 .primerdiv a:hover{
-    padding: 20px;
+    padding: 1.25em;
 }
 /*-------------------------*/
 .img:hover{
@@ -342,14 +358,49 @@ input{
     border: 2px solid violet;
 }
 /*-------------------------*/
+.iconos a:hover{
+    color: limegreen;
+}
 .img1:hover{
     background-color:#FFA0A0;
     border-radius: 40px;
-    padding: 10px;
+    padding: 0.625em;
 }
-.iconos a:hover{
-    background-color: #262A53;
-    border-radius: 50px;
-    padding: 5px;
-    color:white;
+/*-------------------------*/
+.ico:hover{
+    background-color: #FFA0A0;
+}
+/*AQUI COMIENZA EL MEDIA QUERIT*/
+@media(max-width:1100px){
+    header{
+        visibility: hidden;
+    }
+    .principal{
+        flex-direction: column;
+    }
+    .primerdiv{
+        flex-basis: 100%;
+        flex-wrap: wrap;
+        padding-bottom: 100px;
+        padding-right: 150px;
+        text-align: center;
+    }
+    .primerdiv p,a{
+        padding: 30px;
+    }
+    .segundodiv{
+        flex-basis: 100%;
+        padding: 0;
+        margin: 0 auto;
+        padding-bottom: 100px;
+    }
+    .lifo a{
+        padding: 10px;
+    }
+    .ico a{
+        padding: 10px;
+    }
+}
+@media(max-width:920){
+    
 }
