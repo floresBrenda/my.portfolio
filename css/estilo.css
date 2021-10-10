@@ -34,6 +34,7 @@ a{
     padding: 0.625em;
     color: white;
 }
+/*DIV PRINCIPAL*/
 .principal{
     display: flex;
     width: 100%;
@@ -41,11 +42,12 @@ a{
 }
 /*PRIMER DIV IZQ*/
 .primerdiv{
-    align-content: center;
-    padding-left: 9.375em;
+    text-align: center;
     width: 50%;
-    align-items: stretch;
-    align-self: center;
+    margin: 0 auto;
+    padding-top: 20px;
+    text-align: center;
+
 }
 .primerdiv>h2{
     font-size: 2.8125em;
@@ -100,36 +102,17 @@ a{
 /*imagenes*/
 .imagenesconocimientos{
     display: flex;
-    width: 100%;
-    align-content: space-between;
     justify-content: center;
     margin: 0 auto;
+    flex-wrap: wrap;
+    max-width: 800px;
 }
-.uno{ 
-    height: 15.625em;
-    width: 15.625em;
+.img22{ 
+    height: auto;
+    width: 20%;
     background-color: white;
     margin: 1.25em;
-}
-.dos{
-    height: 15.625em;
-    width: 15.625em;
-    background-color: white;
-    margin: 1.25em;
-}
-.tres{
-    height: 15.625em;
-    width: 15.625em;
-    background-color: white;
-    margin: 1.25em;
-}
-/*Segundo trio de imagenes*/
-.imagenes2conocimientos{
-    display: flex;
-    width: 100%;
-    align-content: space-between;
-    justify-content: center;
-    margin: 0 auto;
+    padding: 10px;
 }
 /*Comparten propiedades los 6 imagnes*/
 /*SECCION COMILLAS*/
@@ -184,7 +167,9 @@ a{
 .cuatrosec{
     display: flex;
     justify-content: center;
-    width: 100%;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 1000px;
 }
 .text{
     text-align: center;
@@ -195,9 +180,9 @@ a{
     padding: 0;
 }
 .imag{
-    width: 20%;
-    height: 18.75em;
-    margin: 1.25em 0.625em;
+    height: auto;
+    width: 300px;
+    margin: 10px;
     border: 1px dotted gray;
     background: white;
 }
@@ -249,23 +234,22 @@ a{
 .formu{
     width: 50%;
     background-color: azure;
-    padding-left: 1.875em;
     padding-top: 2.8125em;
 }
 .nombre{
-    flex-basis: 50%;
     display: inline-block;
     margin: 0.9375em;
 }
 .apellido{
-    flex-basis: 50%;
     display: inline-block;
     margin: 0.9375em;
 }
 .email{
+    width: 65%;
     margin: 0.9375em;
 }
 .mensaje{
+    width: 65%;
     margin: 0.9375em;
 }
 .textfrm{
@@ -275,10 +259,11 @@ input{
     padding: 0.625em 0.9375em;
 }
 .email>input{
-   width: 63%;
+    width: 95%;
 }
 .mensaje>input{
-    padding: 4.6875em 8.4375em;
+    width: 95%;
+    height: 100px;
 }
 .boto2{
     padding-left: 3.75em;
@@ -350,12 +335,12 @@ input{
     padding: 1.25em;
 }
 /*-------------------------*/
-.img:hover{
-    border: 2px solid violet;
+.img22:hover{
+    border: 5px solid violet;
 }
 /*-------------------------*/
 .imag:hover{
-    border: 2px solid violet;
+    border: 5px solid violet;
 }
 /*-------------------------*/
 .iconos a:hover{
@@ -377,19 +362,17 @@ input{
     }
     .principal{
         flex-direction: column;
+        margin: 0 auto;
     }
     .primerdiv{
-        flex-basis: 100%;
         flex-wrap: wrap;
         padding-bottom: 100px;
-        padding-right: 150px;
         text-align: center;
     }
     .primerdiv p,a{
         padding: 30px;
     }
     .segundodiv{
-        flex-basis: 100%;
         padding: 0;
         margin: 0 auto;
         padding-bottom: 100px;
@@ -401,6 +384,11 @@ input{
         padding: 10px;
     }
 }
-@media(max-width:920){
-    
+@media(max-width:425){
+    .ultsecc{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
 }
+
