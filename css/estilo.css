@@ -2,6 +2,13 @@
     margin: 0;
     padding: 0;
 }
+.shadow{
+    position: fixed;
+    width: 10%;
+    height: 100%;
+    right: -150px;
+    box-shadow: -10px 0px 25px 1px #5e8094;
+}
 /*Section principal*/
 .header nav{
     box-shadow:inset 0 0 10px #FFA0A0;
@@ -47,7 +54,7 @@ a{
     margin: 0 auto;
     padding-top: 20px;
     text-align: center;
-
+    align-self: center;
 }
 .primerdiv>h2{
     font-size: 2.8125em;
@@ -203,15 +210,14 @@ a{
 }
 .cont{
     width: 40%;
-    flex-direction: column;
     justify-content: center;
     background-color: azure;
-    padding-left: 1.875em;
     padding-top: 2.8125em;
-    padding-bottom: 6.25em;
 }
 .iconos{
+    padding-left: 20px;
     padding: 0,9375em;
+    margin: 10px;
 }
 .img1{
     display:inline-block;
@@ -232,7 +238,7 @@ a{
 }
 /*Seccion DIV escribeme*/
 .formu{
-    width: 50%;
+    width: 40%;
     background-color: azure;
     padding-top: 2.8125em;
 }
@@ -256,14 +262,14 @@ a{
     font-size: 1.25em;
 }
 input{
-    padding: 0.625em 0.9375em;
+    padding: 10px;
 }
 .email>input{
     width: 95%;
 }
 .mensaje>input{
     width: 95%;
-    height: 100px;
+    height: 6.25em;
 }
 .boto2{
     padding-left: 3.75em;
@@ -365,12 +371,15 @@ input{
         margin: 0 auto;
     }
     .primerdiv{
-        flex-wrap: wrap;
+        width: 100%;
         padding-bottom: 100px;
         text-align: center;
     }
     .primerdiv p,a{
         padding: 30px;
+    }
+    .primerdiv h1{
+        text-size-adjust: 20px;
     }
     .segundodiv{
         padding: 0;
@@ -384,11 +393,29 @@ input{
         padding: 10px;
     }
 }
-@media(max-width:425){
+@media(max-width:970px){
+    .imagenesconocimientos{
+        max-width: 600px;
+    }
+    .img22{
+        width: 40%;
+    }
+}
+@media(max-width:900px){
     .ultsecc{
         display: flex;
         flex-direction: column;
-        width: 100%;
+        justify-content: center;
     }
+  .cont{
+      justify-content: center;
+      width: 90%;
+      margin: 0 auto;
+  }
+  .formu{
+      justify-content: center;
+      margin: 0 auto;
+      width: 90%;
+  }
 }
 
