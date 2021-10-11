@@ -52,7 +52,7 @@ a{
     text-align: center;
     width: 50%;
     margin: 0 auto;
-    padding-top: 20px;
+    padding-top: 1.25em;
     text-align: center;
     align-self: center;
 }
@@ -94,7 +94,7 @@ a{
 }
 .segunsec>h1{
     text-align: center;
-    font-size: 3.125em;
+    font-size: 2.5em;
     font-style:oblique;
     justify-content: center;
 
@@ -119,7 +119,7 @@ a{
     width: 20%;
     background-color: white;
     margin: 1.25em;
-    padding: 10px;
+    padding: 0.625em;
 }
 /*Comparten propiedades los 6 imagnes*/
 /*SECCION COMILLAS*/
@@ -188,8 +188,8 @@ a{
 }
 .imag{
     height: auto;
-    width: 300px;
-    margin: 10px;
+    width: 18.75em;
+    margin: 0.625em;
     border: 1px dotted gray;
     background: white;
 }
@@ -215,9 +215,9 @@ a{
     padding-top: 2.8125em;
 }
 .iconos{
-    padding-left: 20px;
+    padding-left: 1.25em;
     padding: 0,9375em;
-    margin: 10px;
+    margin: 0.625em;
 }
 .img1{
     display:inline-block;
@@ -262,7 +262,7 @@ a{
     font-size: 1.25em;
 }
 input{
-    padding: 10px;
+    padding: 0.625em;
 }
 .email>input{
     width: 95%;
@@ -372,25 +372,28 @@ input{
     }
     .primerdiv{
         width: 100%;
-        padding-bottom: 100px;
+        padding-bottom: 6.25em;
         text-align: center;
     }
     .primerdiv p,a{
-        padding: 30px;
+        padding: 1.875em;
     }
     .primerdiv h1{
-        text-size-adjust: 20px;
+        text-size-adjust: 1.25em;
     }
     .segundodiv{
-        padding: 0;
+        width: 100%;
         margin: 0 auto;
-        padding-bottom: 100px;
+        padding-bottom: 6.25em;
+    }
+    .segundodiv img{
+        width: 60%;
     }
     .lifo a{
-        padding: 10px;
+        padding: 0.625em;
     }
     .ico a{
-        padding: 10px;
+        padding: 0.625em;
     }
 }
 @media(max-width:970px){
@@ -402,6 +405,9 @@ input{
     }
 }
 @media(max-width:900px){
+    .segundodiv img{
+        width: 80%;
+    }
     .ultsecc{
         display: flex;
         flex-direction: column;
