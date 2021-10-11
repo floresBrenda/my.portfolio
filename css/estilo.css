@@ -46,6 +46,7 @@ a{
     display: flex;
     width: 100%;
     padding-top: 9.375em;
+    padding-bottom: 9.375em;
 }
 /*PRIMER DIV IZQ*/
 .primerdiv{
@@ -388,6 +389,7 @@ input{
     }
     .segundodiv img{
         width: 60%;
+        height: auto;
     }
     .lifo a{
         padding: 0.625em;
